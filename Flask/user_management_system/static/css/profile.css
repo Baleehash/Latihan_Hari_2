@@ -1,0 +1,66 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    padding: 20px; /* Add padding around the body */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    margin: 10px 0; /* Add margin above and below paragraphs */
+    color: #555; /* Slightly lighter color for text */
+}
+
+.button-group {
+    display: flex; /* Create a flex container */
+    justify-content: center; /* Center buttons horizontally */
+    width: 100%; /* Full width */
+    margin-top: 150px; /* Space above the button group */
+    padding: 10px 15px; /* Add horizontal padding */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    gap: 40px; /* Jarak antara tombol */
+}
+
+/* Tombol Lihat Pengguna */
+.button-group .btn-view {
+    background-color: #f4f4f4;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid black; /* Outline warna skyblue */
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+}
+
+.button-group .btn-view:hover {
+    border-color: #0056b3; /* Ubah outline saat hover */
+}
+
+/* Tombol Logout */
+.button-group .btn-logout {
+    background-color: #f4f4f4;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid black; /* Outline warna merah */
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+}
+
+.button-group .btn-logout:hover {
+    border-color: #B22222;; /* Ubah outline saat hover */
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}">
+</head>
+<body>
+    <h2>Selamat datang, {{ name }}!</h2>
+
+    <div class="button-group">
+        {% if current_user.role == 'admin' %}
+            <a href="{{ url_for('users') }}" class="btn-view">Lihat Semua Pengguna</a>
+        {% endif %}
+        <a href="{{ url_for('logout') }}" class="btn-logout">Logout</a>
+    </div>
+</body>
+</html>

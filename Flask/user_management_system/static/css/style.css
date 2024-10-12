@@ -1,0 +1,48 @@
+/* Mengatur font dan gaya umum */
+body {
+    background-color: #f4f4f4;/* Warna latar belakang yang lembut */
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Memenuhi tinggi layar */
+    flex-direction: column;
+    text-align: center; /* Mengatur agar konten berada di tengah */
+}
+
+/* Gaya untuk judul (h1) */
+h1 {
+    color: #333; /* Warna teks lebih gelap */
+    font-size: 48px; /* Ukuran font besar */
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Efek bayangan teks */
+}
+
+
+/* Gaya untuk tombol */
+a {
+    display: inline-block;
+    background-color: #007bff; /* Warna biru */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px; /* Membuat ujung tombol menjadi melengkung */
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #0056b3; /* Warna biru lebih gelap saat di-hover */
+}
+
+/* Tambahkan efek animasi ketika pertama kali halaman dimuat */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+body {
+    animation: fadeIn 1s ease-in-out;
+}

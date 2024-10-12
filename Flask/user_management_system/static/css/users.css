@@ -1,0 +1,47 @@
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #0056b3;
+    color: white;
+}
+
+.button-group {
+    display: flex; /* Buat kontainer flex untuk tombol */
+    justify-content: center; /* Pusatkan tombol secara horizontal */
+    margin-top: 20px; /* Tambahkan margin di atas grup tombol */
+}
+
+button {
+    padding: 10px 15px; /* Tambahkan padding */
+    border: none; /* Hapus border default */
+    border-radius: 4px; /* Bulatkan sudut */
+    cursor: pointer; /* Kursor sebagai pointer saat hover */
+    font-size: 12px; /* Ukuran font */
+    margin: 0 10px; /* Jarak antar tombol */
+    width: 120px; /* Lebar tombol */
+}
+
+.button-group .btn-back {
+    background-color: #6c757d; /* Warna abu-abu */
+    color: white; /* Warna teks putih */
+}
+
+.button-group .btn-back:hover {
+    background-color: #5a6268; /* Warna lebih gelap saat hover */
+}
+
+
