@@ -40,6 +40,7 @@ After installation, you can run each project individually. Here are general step
 ## Project Structure
 The project structure for Latihan_Hari_2 is as follows:
 
+```bash
    Latihan_Hari_2/
 │
 ├── Flask/                        # Flask-related projects
