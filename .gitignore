@@ -5,13 +5,6 @@ flask/fenv/
 __pycache__/
 .ipynb_checkpoints/
 
-# Abaikan folder besar
-Chest XRay/
-
-# Abaikan semua file CSV di rawdata kecuali 'data_penting.csv'
-rawdata/*.csv
-!rawdata/data_penting.csv
-
 # Abaikan file log dan sementara
 *.log
 *.tmp
