@@ -60,6 +60,7 @@ The project structure for Latihan_Hari_2 is as follows:
     ├── data1.csv                 # Example raw data file 1
     ├── data2.xlsx                # Example raw data file 2
     └── ...                        # Additional raw data files
+```
 
 ## License
 This project is licensed under the MIT License.
