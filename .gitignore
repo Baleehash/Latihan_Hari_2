@@ -1,5 +1,5 @@
 # Abaikan folder virtual environment
-flask/venv/
+flask/fenv/
 flask/env/
 flask/.venv/
 
