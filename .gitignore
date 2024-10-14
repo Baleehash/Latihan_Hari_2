@@ -1,7 +1,5 @@
-# Abaikan folder virtual environment
+# Abaikan virtual environment Flask
 flask/fenv/
-flask/env/
-flask/.venv/
 
 # Abaikan folder sistem dan cache
 __pycache__/
@@ -10,7 +8,7 @@ __pycache__/
 # Abaikan folder besar
 Chest XRay/
 
-# Abaikan semua file CSV di folder rawdata, kecuali data_penting.csv
+# Abaikan semua file CSV di rawdata kecuali 'data_penting.csv'
 rawdata/*.csv
 !rawdata/data_penting.csv
 
